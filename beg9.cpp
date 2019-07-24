@@ -8,8 +8,9 @@ int main() {
 	for (int i=0;i<n; i++)
 	{
 		cin>>a[i];
-		if(i<b)
+		if(i<b-1)
 		sum+=a[i];
 	}
+	cout<<sum;
 	return 0;
 }
