@@ -11,7 +11,7 @@ if(a>0)
  {
   printf("Zero");
   }
-  else (a<0)
+  else 
   {
   printf("Negative");
  }
