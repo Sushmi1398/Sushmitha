@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int a,b,sum=0;
-	cin>>a>>b;
-	for (int i=0;i<a; i++)
+	int a[20],b,sum=0,n;
+	cin>>n>>b;
+	for (int i=0;i<n; i++)
 	{
 		cin>>a[i];
-		if(i<k)
+		if(i<b)
 		sum+=a[i];
 	}
 	return 0;
