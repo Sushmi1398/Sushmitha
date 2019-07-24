@@ -4,7 +4,7 @@ int main()
 {
   int a,b,c;
   cin>>a>>b>>c;
-  cout<<a*b*6<<" "<<a*b*c;
+  cout<<2*((a*b)+(b*c)+(c*a))<<" "<<a*b*c;
   return 0;
  }
   
